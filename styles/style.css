@@ -1,0 +1,219 @@
+body{
+	background: #fff url(../images/background.gif) repeat-x center 187px;
+	font-family: Arial;
+	font-size: 18px;
+	margin: 0;
+	min-width: 960px;
+}
+a{
+	outline:none;
+}
+img{
+	border:none;
+}
+#header div#section:after, #header ul:after, #content div:after, #content div ul.services:after, #footer div:after, #footer div div.section ul:after{
+	clear:both;
+	content:" ";
+	display:block;
+	font-size:0;
+	height:0;
+	visibility:hidden;
+}
+#page{
+	background:url(../images/background.jpg) no-repeat center 180px;
+	width:100%;
+}
+#header{
+	background:url(../images/bg-header.gif) repeat-x;
+	height:auto;
+	overflow:hidden;
+	position:relative;
+}
+#header div#section{
+	height:145px;
+	margin:0 auto;
+	width:960px;
+}
+#header div#section div{
+	float:left;
+	margin-top:48px;
+}
+#header div#section div a{
+	display:block;
+}
+#header div#section span{
+	color:#ACBCC9;
+	float:right;
+	margin:0;
+	padding-right:20px;
+	padding-top:45px;
+	text-align:right;
+	width:178px;
+}
+#header ul{
+	list-style:none;
+	margin:2px auto 0;
+	padding:0;
+	width:935px;
+}
+#header ul li{
+	float:left;
+	padding-right:5px;
+}
+#header ul li a{
+	color:#28475C;
+	display:block;
+	font-size:14px;
+	height:43px;
+	line-height:37px;
+	padding:0 23px;
+	text-align:center;
+	text-decoration:none;
+	text-shadow:1px 1px 0 #94C81D;
+	text-transform:capitalize;
+}
+#header ul li.current, #header ul li:hover{
+	height:43px;
+}
+#header ul li.current a{
+	background:url(../images/bg-menu.gif) repeat-x;
+	color:#2a495e;
+	font-weight:bold;
+	text-shadow:1px 1px 0 #a8d32c;
+}
+#header ul li a:hover{
+	background:url(../images/bg-menu.gif) repeat-x;
+}
+#header div#tagline{
+	background: url(../images/background.gif) no-repeat center -20px;
+	margin-top: 6px;
+	color: #6495ED;
+}
+#header div#tagline div{
+	color: #295071;
+	height: 600px;
+	padding-left: 20px;
+	width: 1000px;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+}
+#header div#tagline div h4{
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 50px;
+	font-weight: bold;
+	line-height: 60px;
+	margin: 0;
+	padding-top: 100px;
+	text-shadow: 0 1px 0 #FFFFFF;
+	width: 450px;
+	text-align: center;
+}
+#header div#tagline div p{
+	font-size: 24px;
+	line-height: 35px;
+	margin: 0;
+	padding-top: 20px;
+	text-shadow: 0 1px 1px #FFFFFF;
+	width: 340px;
+}
+#content{
+	/* background:url(../images/bg-content.gif) no-repeat top center; */
+	background-color: white;
+	margin:0 auto;
+	min-height:174px;
+	overflow:hidden;
+	position:relative;
+	width: auto;
+	margin-top: 30px;
+	padding: 20px 20px 20px 20px;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+#content div#home{
+	background:url(../images/bg-home.gif) no-repeat top center;
+	margin:-0 auto 0;
+	min-height:174px;
+	overflow:hidden;
+	padding:0;
+	position:relative;
+	width: auto;
+}
+#content p a{
+	color:#000;
+	text-decoration:underline;
+}
+h4 a, div#aside p span a{
+	color:#375675;
+	text-decoration:underline;
+}
+#content div{
+	background:#fff;
+	margin:10px auto 20px;
+	padding:30px;
+	width: auto;
+}
+#footer{
+	background:#274F75 url(../images/bg-footer.gif) repeat-x;
+	min-height:113px;
+	width:100%;
+}
+#footer div{
+	font-size:12px;
+	margin:0 auto;
+	padding-top:37px;
+	position:relative;
+	width:960px;
+}
+#footer div div#connect{
+	float:left;
+	padding:0;
+	width:250px;
+}
+#footer div div#connect a{
+	display:inline-block;
+	padding-right:10px;
+}
+#footer div div.section{
+	float:right;
+	padding:0;
+	width:700px;
+}
+#footer div div.section ul{
+	list-style:none;
+	margin:0;
+	padding:0;
+	position:absolute;
+	right:0;
+	top:0;
+}
+#footer div div.section ul li{
+	border-left:1px solid #6886a0;
+	float:left;
+	padding:0 5px;
+}
+#footer div div.section ul li.last{
+	border-right:0;
+}
+#footer div div.section ul li:first-child{
+	border:none;
+}
+#footer a{
+	color:#6886A0;
+	text-decoration:none;
+}
+#footer div div.section ul li a{
+	display:block;
+	height:12px;
+	line-height:10px;
+}
+#footer a:hover{
+	color:#fff;
+}
+#footer div div.section p{
+	color:#6886A0;
+	margin:0;
+	padding:20px 3px 0;
+	text-align:right;
+}
